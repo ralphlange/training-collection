@@ -1,0 +1,3 @@
+[submodule "vm-setup"]
+	path = vm-setup
+	url = https://github.com/epics-training/training-vm
