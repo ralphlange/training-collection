@@ -9,3 +9,9 @@ under the slug (short name) of that course.
 Checking out this repository using the slug
 will create all training modules for the training course
 in the versions that were used at the event.
+
+## Valid training event slugs
+
+| Slug               | Training                                   |
+| ----               | --------                                   |
+| 2024-spring-pohang | EPICS Collab. Meeting April 2024 in Pohang |
