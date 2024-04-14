@@ -1,0 +1,44 @@
+# User specific configuration
+# Copy this sample file to local.yml then change it
+
+# Activate/deactivate optional roles by uncommenting the associated variable below
+# (default settings are defined in all.yml)
+#epics_modules: false
+#catrust: true
+#epics_tools: false
+#docker: false
+#bluesky: false
+
+# List the EPICS modules that will be built in this order (base is mandatory)
+epics_modules_list:
+  - base
+  - pvxs
+  - p4p
+#  - pvapy
+  - seq
+  - asyn
+  - autosave
+  - busy
+  - sscan
+  - calc
+  - adcore
+  - adsimdetector
+  - adpvadriver
+
+# Set proxies, if needed
+#proxy_env:
+#  http_proxy: http://10.0.2.2:3128
+#  https_proxy: http://10.0.2.2:3128
+
+#proxy_mvn:
+#  - <proxy><id>httpproxy</id><active>true</active><protocol>http</protocol><host>10.0.2.2</host><port>3128</port></proxy>
+#  - <proxy><id>httpsproxy</id><active>true</active><protocol>https</protocol><host>10.0.2.2</host><port>3128</port></proxy>
+
+
+# [catrust] CA certificate to work through corporate firewall with deep packet inspection
+# (like e.g. ITER uses)
+#root_ca_url: "http://pki.iter.org/CertEnroll/io-ws-pkiroot_ITER%20Organization%20Root%20CA.crt"
+
+#ca_trust_folder: "/var/lib/training-vm/ca_trust"
+#ca_trust_der_path: "{{ ca_trust_folder }}/corporate_root_ca.der.crt"
+#ca_trust_pem_path: "{{ ca_trust_folder }}/corporate_root_ca.pem.crt"
