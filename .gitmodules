@@ -1,9 +1,6 @@
 [submodule "vm-setup"]
 	path = vm-setup
 	url = https://github.com/epics-training/training-vm
-[submodule "areadetector-training"]
-	path = areadetector-training
-	url = https://github.com/epics-training/areadetector-training
 [submodule "epics7-overview"]
 	path = epics7-overview
 	url = https://github.com/epics-training/epics7-overview
