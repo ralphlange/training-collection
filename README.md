@@ -1,22 +1,27 @@
-# Training-Collection
+# Training-Collection `2024-fall-oakridge`
+
+This branch contains all necessary training material
+(virtual machine infrastructure and training modules)
+for the training modules delivered at the
+[EPICS Collaboration Meeting Fall 2024](https://conference.sns.gov/event/448/).
+
+Use the
+[`bootstrap_...` script](https://github.com/epics-training/training-vm/blob/main/doc/creating-vm-from-scratch.md#get-and-run-the-bootstrap-script)
+to check it out on your VM instance.
+Leave the training event slug empty to check out
+the main branches of all submodules.
+
+You can run the `update.sh` script at any time
+to update your instance to the latest versions of all modules.
 
 This repository works as a parent for the other modules
 in the epics-training organization,
 which are linked as git submodules.
 
-For a given training course, it contains a branch
-under the slug (short name) of that course.
-Checking out this repository using that slug branch
-will create all training modules for the training course
-in the versions that were used at the event.
-
-That check-out action
-is intended to be run by the `bootstrap_...` script. See
-https://github.com/epics-training/training-vm/blob/main/doc/creating-vm-from-scratch.md#get-and-run-the-bootstrap-script
-
 ## Valid training event slugs
 
 | Slug               | Training                                          |
 | ----               | --------                                          |
+| <empty>            | <main branches of everything for development>     |
 | 2024-spring-pohang | EPICS Collab. Meeting April 2024 in Pohang        |
 | 2024-fall-oakridge | EPICS Collab. Meeting September 2024 in Oak Ridge |
