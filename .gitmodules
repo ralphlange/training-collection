@@ -4,3 +4,7 @@
 [submodule "epics7-overview"]
 	path = epics7-overview
 	url = https://github.com/epics-training/epics7-overview
+[submodule "opcua-support"]
+	path = opcua-support
+	url = https://github.com/epics-training/opcua-support
+	branch = main
