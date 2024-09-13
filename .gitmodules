@@ -8,3 +8,7 @@
 	path = opcua-support
 	url = https://github.com/epics-training/opcua-support
 	branch = main
+[submodule "phoebus-training"]
+	path = phoebus-training
+	url = https://github.com/epics-training/phoebus-training
+	branch = main
