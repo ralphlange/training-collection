@@ -16,8 +16,10 @@ epics_modules_list:
 # Two alternative Python wrappers
 #  - p4p
 #  - pvapy
+#
 #  - seq
 #  - asyn
+#  - opcua
 # AreaDetector dependencies
 #  - autosave
 #  - busy
